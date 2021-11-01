@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1000px)  {
+  .quote-box {
+    width: 80vw;
+  }
+  .fa-quote-left {
+    font-size: 2.8rem;
+  }
+  .quote-text {
+    font-size: 2rem;
+  }
+  .author {
+    font-size: 1.7rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .fa-twitter {
+    font-size: 2.5rem;
+  }
+  .loader {
+    width:15vw;
+    height:15vw;
+    border: 2vw solid #8a909b;
+    border-top: 2vw solid #323F64;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .tweeter-icon:hover .tweet {
+    display: none;
+  }
+  .long {
+    font-size: 1.5rem;
+  }
+  .long-author {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .quote-box {
+    width: 80vw;
+  }
+  .quote-text {
+    font-size: 4rem;
+  }
+  .author {
+    font-size: 3rem;
+  }
+  button {
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    box-shadow: 0 1rem rgba(3, 18, 64, 0.3);
+    border-radius: 0.8rem;
+  }
+  .fa-twitter {
+    font-size: 5rem;
+  }
+  .tweet {
+    padding: 0.8rem;
+    margin-left: 1.3rem;
+    font-size: 1.5rem;
+  }
+  .tweet::before {
+    border-top: 0.5rem solid transparent;
+    border-right: 1rem solid rgba(3, 18, 64, 0.15);
+    border-bottom: 0.5rem solid transparent;
+  }
+  .long {
+    font-size: 3rem;
+  }
+
+  .long-author {
+    font-size: 2.5rem;
+  }
+}
